@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Calculadora IMC </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./style.css" rel="stylesheet">
+
+    <!--fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora IMC</h1>
+    </header>
+    <p>Para calcular su imc ingrese su estatura y peso</p>
+
+    <div>
+        <label>Estatura:</label>
+
+        <input id="estatura" type="number" placeholder="estatura"> <br>
+    </div>
+
+    <div>
+        <label>Peso:</label>
+        <input id="peso" type="number" placeholder="peso"> <br>
+        <button id="boton" class="glow-on-hover" type="button">Calcular</button>
+    </div>
+    <p id="resultado"> Tu imc es: </p>
+    <p id="tipo"></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
